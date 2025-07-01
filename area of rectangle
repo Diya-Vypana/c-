@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>  //includes all needed header files
+using namespace std;  //avoids the need for std:: 
+
+//Area of a rectangle
+
+//declaring a variable means we are in control of memory(we can choose size)
+
+int main()
+{
+    int l,b,area;
+    cin >> l >> b;    //cin for scanf ; cout for printf
+    area=l*b;
+    cout << "Area=" << area;
+    
+    return 0;
+}
