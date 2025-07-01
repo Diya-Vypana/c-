@@ -7,7 +7,7 @@ using namespace std;  //avoids the need for std::
 
 int main()
 {
-    int l,b,area;
+    long l,b,area;      //since we had constraint l,b could be from 1-10^9 , int is only 4 bytes, long - 8 bytes
     cin >> l >> b;    //cin for scanf ; cout for printf
     area=l*b;
     cout << "Area=" << area;
