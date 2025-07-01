@@ -16,3 +16,18 @@ int main()
     
     return 0;
 }
+ // if u want 1st digit of 3 digit no, divide by 100
+/*
+int main()
+{
+    int num,f,m,l,sum;
+    cin >> num;
+    f=num/100;
+    m=(num/10)%10;
+    l=num%10;
+    sum=f+m+l;
+    cout << sum;
+    
+    return 0;
+}
+*/
